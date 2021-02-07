@@ -1,0 +1,60 @@
+/* this is the styling for row 1 */
+.rower1{
+    background-color: aqua;
+}
+.box1{
+    background-color:rgb(208, 245, 243);
+    border-radius: 8px;
+    
+    border: 2px solid blue;
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    margin: 10px;
+    
+} 
+/* for the title text */
+.gaper{
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #0984e3;
+}
+.blink{
+    text-decoration: none;
+    font-family: fantasy;
+}
+.blink:hover{
+    text-decoration: none;
+}
+/* for the head titles in the boxes */
+.hedo{
+    text-align: center;
+}
+/* for the remaing text in the boxes */
+.texto{
+    text-align: center;
+}
+.hola{
+    text-decoration: none;
+}
+.hola:hover{
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+/* for the boxes when curser arrives */
+.box1:hover{
+    background-color: #0984e3;
+    color: aliceblue;
+    border: 2px solid white;
+}
+.bgcolo{
+    
+    background-color: blueviolet;
+    
+}

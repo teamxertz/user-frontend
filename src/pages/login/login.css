@@ -1,0 +1,38 @@
+/* fot styling the login menu */
+.spacer{
+    margin-top: 100px;
+}
+.newer{
+    margin: auto;
+}
+
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+  }
+h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+.col-lg-4 p {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  /* for the login buttons */
+  .colour1{
+    background-color: #4caf50;
+    width: 100px;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }

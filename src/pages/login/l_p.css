@@ -1,0 +1,90 @@
+form {
+    border: 3px solid white;
+  }       
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancelbtn {
+    width: 40%;
+    border-radius: 5px;
+    
+    background-color: #f44336;
+    float:right;
+  }
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  .container1 {
+    padding: 16px;
+    border: #f1f1f1;
+    background-color:white;
+    width: 300px;
+    border-radius: 11px 11px 0px 0px;
+    margin: auto;
+  }
+  .container2{
+    padding: 16px;
+    border: #f1f1f1;
+    background-color:white;
+    width: 300px;
+    border-radius: 0px 0px 11px 11px;
+    margin: auto;
+
+  }
+  span.psw {
+    float: right;
+    padding-top: 0px;
+  }
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+    .container {
+      float: left;
+      width: 50%;
+
+    }
+  }
+  #login{
+    border-radius: 5px;
+  }
+  .text{
+    border-radius: 5px;
+  }
+  .colour2{
+    color:  #4CAF50;
+    text-decoration: none;
+  }
+  .signin{
+    color:white;
+    background-color:  #4CAF50;
+    border-radius: 5px;
+    width :40%;
+
+  }

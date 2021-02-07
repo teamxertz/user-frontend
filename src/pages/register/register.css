@@ -1,0 +1,295 @@
+ *{
+    margin:0;
+    padding:0;
+    }
+   #bg{
+         
+      background-image: url('/src/pages/signup/sunset-5928907.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat; 
+      
+     
+     font-family:sans-serif;
+      } 
+  
+     .regform{
+            width:800px;
+            background-color:rgb(0,0,0,0.6);
+            margin:auto;
+            color:#FFFFFF;
+            padding:10px 0px 10px 0px;
+            text-align:center;
+            border-radius:15px 15px 0px 0px ;
+      }  
+    .main{
+        background-color:rgb(0,0,0,0.5);
+        width:800px;
+        margin:auto;}
+    
+    
+    form{
+        padding:10px;
+     
+    } 
+    .headings{
+        font-size: 30px;
+        color: white;
+    }
+    
+    #name{
+         width:100%;
+      height:100px;
+      
+      }  
+    .name{
+              margin-left:25px;
+     margin-top:30px;
+     width: 165px;
+              color: white;
+              font-size: 18px;
+              font-weight: 700;}
+    
+  .firstname{
+         position: relative;
+         left:200px;
+         top:-37px;
+         line-height: 40px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+         margin-right: 10px;
+         
+         }
+  .lastname{
+        position: relative;
+         left:470px;
+         top:-80px;
+         line-height: 40px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+         color:#555;       
+                    }  
+   .firstlabel{
+              position:relative;
+              color:#E5E5E5;    
+        text-transform: capitalize;
+     font-size: 14px;
+     left:203px;
+     top:-45px;
+     }   
+  .lastlabel{
+              position:relative;
+     color:#E5E5E5;
+     text-transform:capitalize;
+     font-size:14px;
+     left:492px;
+     top:-76px;
+       } 
+  .address{
+             position:relative;
+       left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:480px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  }
+   .email{
+          position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:480px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  
+      }     
+   
+     .Code{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:160px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  
+    }
+   .number{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:255px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+       }
+   .area-code{
+              position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:16px;
+        left:70px;
+        top:-4px;
+       }
+   .phone-number{
+                position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:16px;
+        left:-100px;
+        top:-2px;
+       }
+   .option{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:532px;
+       height:40px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+       outline:none;
+       overflow:hidden;
+    }    
+       .option option{
+                   font-size:20px;
+         }
+     #coustomer{
+                  margin-left:25px;
+      color:white;
+      font-size:18px;
+      
+        } 
+        .dob{
+            position:relative;
+            color:#555;
+            height: 40px;
+            font-size:16px;
+            left: 200px;
+            top: -37px;
+            border-radius: 6px;
+        }
+        .height{
+            position:relative;
+            height: 40px;
+            font-size:16px;
+            left: 200px;
+            top: -47px;
+            border-radius: 6px;
+        }
+        .weight{
+            position:relative;
+            height: 40px;
+            font-size:16px;
+            left: 200px;
+            top: -47px;
+            border-radius: 6px;
+        }
+        .reason{
+            position:relative;
+            left:200px;
+            top:-44px;
+            line-height: 40px;
+            width:480px;
+               border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;  
+        }
+        .allergies{
+            position:relative;
+            left: 24px;
+            top: -37px;
+            color: #555;
+        }
+        .otherdis{
+            position:relative;
+            height: 40px;
+            font-size:16px;
+            left: 200px;
+            top: -37px;
+            border-radius: 6px;
+        }
+       .radio{
+           display:inline-block;
+     padding-right:70px;
+     font-size:20px;
+     margin-left:25px;
+     margin-top:15px;
+     color:white;
+     }
+    .radio input{
+                width:20px;
+       height:20px;
+       border-radius:50%;
+       cursor:pointer;
+       outline:none;
+      } 
+    .operations{
+        
+            position:relative;
+            left: 24px;
+            top: -37px;
+            color: #555;
+        
+    }
+    .medicines{
+        
+            position:relative;
+            left: 24px;
+            top: -37px;
+            color: #555;
+        
+    }
+    ul.exercise{
+        list-style-type: none;
+    }
+    
+    ul.diet{
+        list-style-type: none;
+    }
+    ul.alcohol{
+        list-style-type: none;   
+    }
+    ul.smoke{
+        list-style-type: none;   
+    }
+    .history{
+
+        position:relative;
+        left: 24px;
+        top: -37px;
+        color: #555;
+    }
+      .subb{
+
+
+       
+        
+        background-color:#3BAF9F;
+        display:block;
+        
+        margin: auto;
+        margin-bottom: 50px;
+        text-align:center;
+        border-radius:12px;
+        border:2px solid #366473;
+        padding:14px 110px;
+        outline:none;
+        color:white;
+        cursor:pointer;
+        transition:0.25px;
+      }
+     .subb:hover{
+                  background-color:#5390F5;
+        }    

@@ -1,0 +1,50 @@
+.header__wrapper {
+    background: black;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0.5rem 1rem;
+}
+
+.header__menu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.header__link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0rem 1rem;
+}
+ /* for search box */
+ .sbox{
+    background-color: white;
+    color: #0984e3;
+    border-color: white;
+    
+    
+    
+  
+  }
+  .sbox:hover{
+    background-color: #0165b1;
+    border-color: white;
+  }
+.sbtext{
+      
+    height: 40px;
+    
+    margin-top: 13px;
+}
+  
